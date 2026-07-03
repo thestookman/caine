@@ -1,16 +1,17 @@
-#caine
+# caine
+
 Hello; this is caine. This is my second version so it is not self taught YET but its pretty fun.
 I dont care if u use my cerebra api like i genuinly dont care u shud prob get ur own bc its free but ok.
 YOU MUST NEED PYTHON3 FOR THIS.
 
 # How to Run Caine (v2)
 
-Follow these steps to set up your environment, configure your free Cerebras API key, and launch Caine.
+Follow these steps to set up your free Cerebras API key and launch Caine.
 
-## 1. Setup Your Environment Variables
-You must set your Cerebras API key so Caine can communicate with the inference engine. Run the command below that matches your operating system.
+## 1. Set Your API Key
+Run the command that matches your operating system to link your Cerebras key:
 
-### macOS and Linux
+### macOS / Linux
 ```bash
 export CEREBRAS_API_KEY="your_api_key_here"
 ```
@@ -25,34 +26,44 @@ set CEREBRAS_API_KEY="your_api_key_here"
 \$env:CEREBRAS_API_KEY="your_api_key_here"
 ```
 
-### Local Configuration Option
-Alternatively, create a file named `.env` in your root project folder and add your key:
-```env
-CEREBRAS_API_KEY=your_api_key_here
-```
-
-## 2. Install Required Dependencies
-Before running the application, ensure all required software packages and libraries are installed.
-
-### Python Environment
+## 2. Install Dependencies
+Make sure your Python libraries are installed:
 ```bash
 pip install -r requirements.txt
 ```
 
-### Node.js Environment
-```bash
-npm install
-```
-
 ## 3. Launch Caine
-Execute the main entry script to start running the application.
-
-### If built with Python
+Run the main script to start the agent:
 ```bash
-python main.py
+python caine.py
 ```
 
-### If built with Node.js
-```bash
-node index.js
-```
+## What to do if something bad happens?
+
+Just ai the error and fix the right command.
+
+-----------------------------------------------
+           .~*`*-.
+          (      |  ______
+          \  _.-~\-* __ __~.
+           \* .-`|__|__|__| \
+          (  |.-` ___      \(
+ _     __  \ | _// 0 \  _  ||
+ \\_  /  `-.*|/  \___/ (0)| )
+  / \/ /\   | \__   \-*  __/
+ (/  \/  \  |_/ /\__ ````
+  \/ /  / /\| **-/_ /\``*.
+   \/\\/ | / `-._  *-_/__/
+      \\ ||___/ /`~-.___/
+     /(_)  _____  |    _
+    / _.-_|     \ |___) )___
+   /.*    |      \__/   ____)
+  /  \   \ \        \__(_)
+ /   _\   \ \          (_)
+||***_.-~/  /
+||/``   /  /   mpm
+       /  /
+      /  /
+      `-_*-_
+         `` 
+------------------------------------------------
