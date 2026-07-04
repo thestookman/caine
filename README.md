@@ -1,7 +1,7 @@
 # caine
 
 Hello; this is caine. This is my second version so it is not self taught YET but its pretty fun.
-I dont care if u use my cerebra api like i genuinly dont care u shud prob get ur own bc its free but ok.
+I dont care if u use my cerebra api like i genuinly dont care u shud prob get ur own bc its free but ok. ACTUALLY. I DO MIND. ITS FREE. USE IT.
 YOU MUST NEED PYTHON3 FOR THIS.
 
 # How to Run Caine (v2)
